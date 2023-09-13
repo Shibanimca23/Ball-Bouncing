@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rolling ball
+    </title>
+    <link rel="shortcut icon"href="C:\Users\SHIBANI\Desktop\chapter 3\images\OIP (3).jpg">
+    
+</head>
+<body style="background-color: pink;">
+   
+    <div id="ball" style="
+background-color: red;
+ border-radius: 50%;
+ border-color:blueviolet;
+ position:absolute;
+ z-index:5;
+ height:50px;
+ width:50px;
+ top:0px;
+ left:0px;">
+ </div>
+ 
+    <script>
+        var velocity = 10;
+        var positionX = 0;
+        var positionY = 0;
+        var reverse = false;
+        var ball = document.getElementById('ball');
+        var time=100;
+        function moveBall() {
+            Xmin=0;
+            Xmax=window.innerWidth;
+            Ymin=0;
+            Ymax=window.innerHeight-50;
+            if(reverse){
+                positionX=positionX - velocity;
+                positionY=positionY - velocity;
+                ball.style.left = positionX + 'px';
+                ball.style.top = positionY + 'px';
+    
+            }
+            else{
+                positionX = positionX + velocity;
+                positionY = positionY + velocity;
+                ball.style.left = positionX + 'px';
+                ball.style.top = positionY + 'px';
+            }
+            if(positionX > Xmax || positionX<=Xmin || positionY > Ymax  || positionY<=Ymin)
+            {
+                reverse=!reverse;
+            }
+            
+        }
+setInterval( moveBall,time);            
+           
+            
+    </script>
+</body>
+</html>
+
