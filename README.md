@@ -3,8 +3,7 @@ This web application showcases a basic animation of a rolling ball that moves ba
 
 steps to run :
 step 1:Clone this repository to your local machine
-Open the index.html file in a web browser.
-You can adjust the animation speed by modifying the velocity and time variables in the JavaScript code.
-Future Enhancement:
-User interaction:User Interaction: Allow users to interact with the rolling ball. For example, users could click on the ball to change its color or speed temporarily.
+step 2:Open the index.html file in a web browser.
 
+Future Enhancement:
+Add collision detection with other elements on the page. You could create obstacles or boundaries that the ball must interact with, making the animation more interactive and challenging.
