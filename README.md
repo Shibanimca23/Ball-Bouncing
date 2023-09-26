@@ -6,4 +6,4 @@ step 1:Clone this repository to your local machine
 step 2:Open the index.html file in a web browser.
 
 Future Enhancement:
-Add collision detection with other elements on the page. You could create obstacles or boundaries that the ball must interact with, making the animation more interactive and challenging.
+Implement user interaction so that users can control the ball's movement using keyboard inputs or mouse clicks. For example, users could change the direction or speed of the ball.
