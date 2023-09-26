@@ -1,4 +1,4 @@
-# Ball-Bouncing
+# Ball-Movement
 This web application showcases a basic animation of a rolling ball that moves back and forth diagonally across the web page. The ball changes its direction when it reaches the boundaries of the browser window, creating an entertaining visual effect.
 
 steps to run :
