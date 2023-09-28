@@ -6,4 +6,4 @@ step 1:Clone this repository to your local machine.
 step 2:Open the index.html file in a web browser.
 
 ## Future Enhancement:
-Implement user interaction so that users can control the ball's movement using keyboard inputs or mouse clicks. For example, users could change the direction or speed of the ball.
+In future, this project is enhanced by adding and creating more animations and styles .
