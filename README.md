@@ -1,9 +1,15 @@
-# Ball-Movement
-This web application showcases a basic animation of a rolling ball that moves back and forth diagonally across the web page. The ball changes its direction when it reaches the boundaries of the browser window, creating an entertaining visual effect.
+#SIMULATION BALL MOVEMENT
 
-## steps to run :
-step 1:Clone this repository to your local machine.
-step 2:Open the index.html file in a web browser.
+Description:
 
-## Future Enhancement:
-In future, this project is enhanced by adding and creating more animations and styles .
+This HTML page displays a continuous bouncing red ball animation within a rectangular area, controlled by JavaScript using the setInterval function with a 500-millisecond interval.
+
+How to run the code:
+
+Step 1: Save the HTML file with a .html extension.
+
+Step 2: Install the Live Server extension in Visual Studio Code, then click the "Go Live" button at the bottom right corner of the VSCode window to open a new browser window displaying the ball-moving animation.
+
+##Future improvement:
+
+consider adding user interaction features like mouse or keyboard control to change the ball's direction or speed, or adding obstacles or targets for the ball to interact with, creating a more engaging and interactive animation.
